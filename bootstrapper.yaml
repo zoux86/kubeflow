@@ -65,7 +65,7 @@ spec:
     spec:
       containers:
       - name: deploy
-        image: 192.168.14.111:5000/ml-pipeline/bootstrapper:0.13 #TODO-release: update the release tag for the next release
+        image: 192.168.14.111:5000/ml-pipeline/bootstrapper:0.13
         imagePullPolicy: 'Always'
         # Additional parameter available:
         args: [
